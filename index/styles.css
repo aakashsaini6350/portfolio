@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.6;
+    background-image:url(bg.aakash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+header {
+    background: #141313;
+    color: #938191;
+    padding: 10px 0;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in;
+    
+}
+
+.project {
+    margin: 10px 0;
+    color:rgb(0, 0, 0);
+    margin-left: 20px;
+   
+    animation: fadeIn 0.5s ease-in;
+}
+
+.project h3 {
+    margin: 0;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.project a:hover {
+    background: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    /* padding: 10px 0; */
+    background: #181313;
+    color: #fff;
+    height: 30px;
+}
+
+#foo{
+
+    margin-top: 100px;
+    
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+#contact{
+    color: rgb(0, 0, 0);
+    margin-left: 600px;
+    margin-top: 60px;
+    font-size: 18px;
+    
+}
+#about{
+    color: white;
+    background-color: rgb(4, 9, 52);
+}
+h2{
+    color: rgb(84, 178, 126);
+}
+h3{
+    color: rgb(84, 178, 126);
+    font-size: 30px;
+}
+#aakash{
+    color: black;
+    margin-left:20px ;
+}
+#right{
+    margin-left: 1000px;
+    height: 60px;
+
+}
+#right p{
+    font-size: 29px;
+}
+h1{
+    text-align: left;
+    color: rgb(201, 201, 206);
+    font-size: 25px;
+    
+}
+#menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    /*  */
+}
+.project p{
+    font-size: 20px;
+}
+#element{
+    color: rgb(102, 78, 198);
+}
